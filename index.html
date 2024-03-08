@@ -12,7 +12,7 @@
 <!-- font awesome cdn -->
 <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
 </head>
-<body>
+<body class="container mx-auto">
     <!-- Header start -->
     <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -47,6 +47,36 @@
           <a class="btn bg-red-500 text-white">Get Started</a>
         </div>
       </div>
-    <!-- Header start End -->
+    <!-- Header End -->
+    <!-- Banner start -->
+    <div class="carousel w-full relative mx-4">
+        <!-- 1st slide -->
+        <div id="slide1" class="carousel-item md:relative w-full">
+          <img src="./Images/2.png" class="w-full h-72 md:h-96 object-cover " />
+          <div class="absolute flex justify-center md:justify-start gap-2 transform -translate-y-1/2 left-5 right-5 bottom-2">
+            <a href="#slide4" class="btn btn-sm border-none btn-circle bg-black text-white hover:bg-gray-800">❮</a> 
+            <a href="#slide2" class="btn btn-sm border-none btn-circle bg-black text-white hover:bg-gray-800">❯</a>
+          </div>
+          <div class="w-full md:w-[420px] h-28 p-4 rounded-lg bg-black  absolute -bottom-32 md:right-4 md:bottom-4 ">
+            <h1 class="text-lg font-bold text-white mb-2">Meet all the player from the field</h1>
+            <p class="text-gray-500">The objective of hockey is to score goals by shooting a puck into the opponent's net using a hockey stick. </p>
+          </div> 
+        </div> 
+        <!-- 2nd slide -->
+        <div id="slide2" class="carousel-item md:relative w-full">
+            <img src="./Images/3.png" class="w-full h-72 md:h-96 object-cover " />
+            <div class="absolute flex justify-center md:justify-start gap-2 transform -translate-y-1/2 left-5 right-5 bottom-2">
+              <a href="#slide1" class="btn btn-sm border-none btn-circle bg-black text-white hover:bg-gray-800">❮</a> 
+              <a href="#slide3" class="btn btn-sm border-none btn-circle bg-black text-white hover:bg-gray-800">❯</a>
+            </div>
+            <div class="w-full md:w-[420px] h-28 p-4 rounded-lg bg-black  absolute -bottom-32 md:right-4 md:bottom-4 ">
+              <h1 class="text-lg font-bold text-white mb-2">Playing with two players in the field</h1>
+              <p class="text-gray-500">Hockey is a popular sport played on ice, primarily in countries like Canada, the United States and others. </p>
+            </div> 
+          </div> 
+        
+       
+      </div>
+    <!-- Banner End -->
 </body>
 </html>
